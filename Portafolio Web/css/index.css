@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(255, 255, 255, 0.925);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+.section1{
+    width: 50%;
+    margin: 30px;
+}
+.section2{
+    width: 100%;
+    margin: 30px;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+}
+.border{
+    border: 1px solid rgb(0, 0, 0);
+}
+.background{
+    background-color: #6bccdd;
+}
+.menuprincipal{
+    width: 40%;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    list-style: none;
+}
