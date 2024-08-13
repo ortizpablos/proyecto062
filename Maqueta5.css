@@ -1,0 +1,96 @@
+body{
+    height: 10000px;
+}
+section{
+    border: 1px solid red;
+    background-color: rgb(87, 216, 156);
+
+}
+header{
+    
+    height: 10vh; 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+
+}
+.section1{
+    background-color: black;
+    height: 97%;
+}
+
+
+
+main{
+    
+    height: 90vh; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+
+
+
+
+nav{
+    border: 1px solid rgb(255, 255, 255); 
+    height: 80px; 
+    background-color: rgb(47, 0, 156);
+    text-align: center;
+    
+
+}
+.articulo1{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 94%; 
+    background-color: rgb(0, 55, 255);
+    margin: 2px;
+    width: 80%;
+    
+}
+.articulo2{
+    
+    height: 97%; 
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    
+    width: 20%;
+}
+.art1{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 12%; 
+    background-color: rgb(157, 12, 12);
+    margin: 10px;
+    width: 94%;
+    
+}
+.art2{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 12%; 
+    background-color: rgb(157, 12, 12);
+    margin: 10px;
+    width: 94%;
+    
+} 
+.art3{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 12%; 
+    background-color: rgb(157, 12, 12);
+    margin: 10px;
+    width: 94%;
+    
+}
+.art4{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 12%; 
+    background-color: rgb(157, 12, 12);
+    margin: 10px;
+    width: 94%;
+    
+}
+.sectionfooter{
+    border: 1px solid red;
+    background-color: rgb(87, 216, 156);
+    height: 400px;
+}

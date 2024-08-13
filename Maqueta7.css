@@ -1,0 +1,76 @@
+body{
+    height: 1000px;
+}
+section{
+    border: 1px solid red;
+    background-color: rgb(87, 216, 156);
+
+}
+header{
+    
+    height: 10vh; 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+
+}
+.section1{
+    background-color: black;
+    height: 610px;
+}
+
+
+
+main{
+    
+    height: 90vh; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+.menuprincipal{
+    height: 5vh;
+}
+
+
+
+
+.nav1{
+    border: 1px solid rgb(255, 255, 255); 
+    height: 80px; 
+    background-color: rgb(47, 0, 156);
+    text-align: center;
+    
+
+}
+.nav2{
+    border: 1px solid rgb(255, 255, 255); 
+    height: 80px; 
+    background-color: rgb(47, 0, 156);
+    text-align: center;
+    
+
+}
+.articulo1{
+    border: 1px solid rgb(46, 46, 54); 
+    height: 97%; 
+    background-color: rgb(0, 55, 255);
+    margin: 2px;
+    width: 100%;
+    
+}
+
+.sectionfooter{
+    border: 1px solid red;
+    background-color: rgb(87, 216, 156);
+    height: 400px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.item{
+    list-style: none;
+}
+    

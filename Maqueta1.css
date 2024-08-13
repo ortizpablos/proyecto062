@@ -1,0 +1,69 @@
+section{
+    border: 1px solid rgb(185, 60, 148);
+    background-color: rgb(103, 20, 46);
+
+}
+header{
+    
+    height: 10vh; 
+    background-color: rgb(87, 83, 83);
+    text-align: center;
+    margin: 10px;
+    
+}
+
+    
+
+
+main{
+    border: 1px solid rgb(207, 234, 89); 
+    height: 60vh; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 10px;
+}
+.art1{
+    border: 1px solid rgb(138, 232, 148); 
+    width: 100%;
+    background-color: rgb(138, 232, 148);
+    margin: 5px;
+    
+    
+}
+
+.a1{
+    border: 1px solid rgb(138, 232, 148); 
+    height: 85%; 
+    background-color: rgb(138, 232, 148);
+    margin: 10px;
+    width: 50%;
+    
+}
+.a2{
+    border: 1px solid rgb(138, 232, 148); 
+    height: 85%; 
+    background-color: rgb(138, 232, 148);
+    margin: 10px;
+    width: 50%;
+    
+} 
+nav{
+    border: 1px solid rgb(255, 255, 255); 
+    height: 80px; 
+    background-color: rgb(124, 32, 186);
+    text-align: center;
+    
+
+}
+
+
+footer{
+    border: 0.3 px solid rgb(51, 214, 200); 
+    height: 30vh;
+    background-color: rgb(231, 95, 174);
+    display: flex;
+    
+}
+
+
+
