@@ -1,0 +1,137 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #000;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #fdf8f8;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            padding: 1px;
+            position-visibility;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .highlight {
+            color: #0066cc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi pagina Web</h1>
+    </header>
+
+    <nav>
+        <a href="#section1">Hogar</a>
+        <a href="#section2">Acerca de</a>
+        <a href="#section3">Contacto</a>
+    </nav>
+
+    <main id="main-content">
+        <section id="section1">
+            <h2>Hogar</h2>
+            <p class="highlight">Este es mi diseño Web usando JavaScript</p>
+        </section>
+
+        <section id="section2">
+            <h2>Acerca de</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ocupacion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alexa Chaguendo</td>
+                        <td>19</td>
+                        <td>Desarrolladora</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="section3">
+            <h2>Contacto</h2>
+            <p>Este es mi correo electronico para cualquier pregunta.<a href="mailto:info@example.com">chaguendomarcela94@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Esta es mi pagina Web.</p>
+    </footer>
+
+    <script>
+        const mainContent = document.getElementById('main-content');
+
+        const newSection = document.createElement('section');
+        newSection.innerHTML = `
+            <h2>pie de pagina</h2>
+            <p>lorem</p>
+        `;
+        mainContent.appendChild(newSection);
+    </script>
+</body>
+</html>
